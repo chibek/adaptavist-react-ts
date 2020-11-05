@@ -1,15 +1,20 @@
 {
   "name": "react-tailwind-ts-webpack-boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "Base boilerplate for react projects",
   "main": "index.js",
   "scripts": {
     "dev": "webpack serve --config ./webpack.dev.js",
     "build": "NODE_ENV=production webpack --config ./webpack.prod.js",
-    "start": "npx http-server build"
+    "start": "npx pushstart-server build"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "react",
+    "typescript",
+    "tailwindcss",
+    "boilerplate"
+  ],
+  "author": "Desarrolo Útil",
   "license": "ISC",
   "dependencies": {
     "react": "^17.0.1",
