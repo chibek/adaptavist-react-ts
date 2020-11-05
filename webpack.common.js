@@ -23,6 +23,7 @@ module.exports = {
   entry: path.join(__dirname, "src/index.tsx"),
   resolve: {
     extensions: [".ts", ".tsx", ".js"],
+    alias: getAlias(),
   },
   module: {
     rules: [
@@ -54,8 +55,4 @@ module.exports = {
       filename: "styles.css",
     }),
   ],
-  resolve: {
-    extensions: [".ts", ".tsx", ".js"],
-    alias: getAlias(),
-  },
 };
