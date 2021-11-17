@@ -1,14 +1,7 @@
 module.exports = {
-  future: {
-    removeDeprecatedGapUtilities: true,
-    purgeLayersByDefault: true,
-  },
-  purge: {
-    content: ["./src/**/*.tsx"],
-  },
-  theme: {
-    extend: {},
-  },
-  variants: {},
-  plugins: [],
+    mode: 'jit',
+    purge: ['./public/**/*.html', './src/**/*.{js,jsx,ts,tsx,vue}'],
+    content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
+    variants: {},
+    plugins: [],
 };

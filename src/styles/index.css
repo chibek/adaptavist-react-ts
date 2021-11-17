@@ -2,6 +2,10 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+html, body {
+    @apply h-full w-full
+}
+
 h1 {
-  font-size: 5rem;
+    font-size: 5rem;
 }
